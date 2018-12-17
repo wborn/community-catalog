@@ -2,7 +2,7 @@ version: '2'
 
 catalog:
   name: "openHAB"
-  version: "2.4.0-SNAPSHOT"
+  version: "2.4.0"
   description: "An open source, technology agnostic home automation platform"
   upgrade_from: "2.0.0"
   questions:
@@ -10,8 +10,8 @@ catalog:
       label: "Image Architecture"
       description: |
         Use "amd64" for AMD/Intel 64-bit architectures (e.g. x64, x86-64, x86_64). 
-        Use "armhf" for ARMv7 32-bit architectures (e.g. most RaspberryPi 1/2/3).
-        Use "arm64" for ARMv8 64-bit architectures (not RaspberryPi 3)
+        Use "armhf" for ARMv7 32-bit architectures (e.g. most Raspberry Pi 1/2/3/4).
+        Use "arm64" for ARMv8 64-bit architectures (not Raspberry Pi 3/4)
       required: true
       default: "amd64"
       type: enum

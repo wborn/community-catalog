@@ -14,7 +14,3 @@ Refer to the [tutorials](https://www.openhab.org/docs/tutorial/) on how to get s
 
 In case of problems or questions, please join the [openHAB community](https://community.openhab.org).
 
-## Release Notes
-
-The [official release notes](https://github.com/openhab/openhab-distro/releases/tag/2.4.0) contain an overview of all new features, enhancements and bug fixes.
-
